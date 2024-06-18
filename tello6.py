@@ -6,7 +6,7 @@ import json
 from djitellopy import Tello
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--prompt", type=str, default="prompts/tello_basic.txt")
+parser.add_argument("--prompt", type=str, default="tello_basic.txt")
 args = parser.parse_args()
 
 with open("config.json", "r") as f:
